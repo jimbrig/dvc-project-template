@@ -12,6 +12,12 @@ All notable changes to this project will be documented in this file.
 - Add assets docs directory
 - Add README.md initial content
 - Add initial content to docs README.md
+- Create first CHANGELOG.md via git-cliff
+- Add link to CHANGELOG.md in README.md
+- Add initial data dir's README content
+- Add PowerShell dev't directory README.md
+- Add dev't directory README
+- Add `tree /A` output to README.md
 
 ### Features
 
@@ -24,6 +30,18 @@ All notable changes to this project will be documented in this file.
 - Add mkdocs dedicated docs directory with requirements and configs
 - Add schemaspy dedicated docs directory with java jars and dockerfile
 - Scaffold src, lib, and tests directories
+- Add initial raw data to dvc and remove from git
+- Add all data dirs to dvc and remove from git
+- Add dbt dev't directory
+- Add infra directory for cloud infrastructure as code content
+
+### Refactor
+
+- Remove .gitkeep from dev't directory
+
+### Bug
+
+- Stop tracking data\raw\example-dataset.csv
 
 ### Config
 
